@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div className="shadow-md w-full fixed z-10 top-0 left-0">
-      <div className="flex justify-between items-center bg-white  py-3 md:px-10 sm:px-7">
+      <div className="flex justify-between items-center bg-white  py-3 md:px-10 px-7">
         <div className="flex justify-center items-center">
         <div className="text-sm  text-black tracking-[0.05em] font-pacifico font-normal">
           dribbble
@@ -22,11 +22,11 @@ function Navbar() {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 md:ml-7 pb-4 absolute md:static bg-white shadow-md md:shadow-none md:z-auto z-[-1] left-0 w-full md:w-auto md:gap-2 md:pl-0 sm:pl-9 px-5  transition-all duration-500 ease-in pt-3 md:pt-0 border-2 ${
+          className={`md:flex md:items-center md:pb-0 md:ml-7 pb-4 absolute md:static bg-white shadow-md md:shadow-none md:z-auto z-[-1] left-0 w-full md:w-auto md:gap-2 md:pl-0 sm:pl-9 px-5 transition-all duration-500 ease-in pt-3 md:pt-0 ${
             open ? "top-[48px]" : "top-[-490px]"
           }`}
         >
-          <li className="font-semibold text-gray-600  hover:bg-black cursor-pointer hover:text-white text-center text-sm  p-1 md:p-1 pl-2 rounded-sm">
+          <li className="font-semibold text-gray-600  hover:bg-black cursor-pointer hover:text-white text-center text-sm  p-1 md:p-1 pl-2  rounded-sm">
             Inspiration
           </li>
           <li className="font-semibold text-gray-600 hover:bg-black cursor-pointer hover:text-white text-center text-sm p-1 pl-2 md:p-1  rounded-sm">

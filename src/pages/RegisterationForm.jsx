@@ -30,8 +30,8 @@ const SignupForm = () => {
             </span>
           </span>
           <h3 className="font-bold text-2xl py-8 ">Sign up to Dribbble</h3>
-          <div className="flex  sm:gap-16 gap-5 ">
-            <span className="flex flex-col">
+          <div className="flex sm:flex-row flex-col sm:mt-0 mt-5  sm:gap-16 gap-5 w-full sm:w-0 ">
+            <span className="flex flex-col ">
               <label htmlFor="name" className="font-bold ">
                 Name
               </label>
@@ -72,9 +72,9 @@ const SignupForm = () => {
               className="outline-none border-none mt-1 p-1 bg-gray-200 text-black "
             />
           </span>
-          <span className="flex mt-5 w-full text-center sm:text-start ">
-            <input type="checkbox" className="sm:mb-5 mb-10 mr-1" />
-            <span className="text-sm">
+          
+            <span className="text-sm w-full text-center  sm:text-start mt-5">
+              <input type="checkbox" className="mr-1 " />
               Creating an account means you’re okay with our
               <span className="text-purple-700 hover:underline cursor-pointer ml-1 mr-1 ">
                 Terms of Service, Privacy Policy,
@@ -84,12 +84,16 @@ const SignupForm = () => {
                 Notification Setting.
               </span>
             </span>
-          </span>
-          
+
           <button className="bg-pink-600 text-white border-none py-2 w-40 rounded-md mt-5 mb-3 hover:bg-pink-800 cursor-pointer">
             Create Account
           </button>
-          <p className="lg:hidden mb-2">Already a member?<span className="hover:underline text-purple-600 cursor-pointer">Sign In</span></p>
+          <p className="lg:hidden mb-2">
+            Already a member?
+            <span className="hover:underline text-purple-600 cursor-pointer">
+              Sign In
+            </span>
+          </p>
           <span className="text-xs w-full text-center sm:text-start">
             This site is protected by reCAPTCHA and the Google
             <span className="text-purple-700 hover:underline cursor-pointer mr-1 ml-1">

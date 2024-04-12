@@ -16,7 +16,7 @@ function Navbar() {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-3.5 cursor-pointer md:hidden"
+          className="text-3xl absolute right-3 top-3.5 cursor-pointer md:hidden"
         >
           {open ? <FaRegWindowClose /> : <TiThMenu />}
         </div>
@@ -47,8 +47,8 @@ function Navbar() {
         </ul>
         </div>
         <div className="flex ">
-          <span className="flex border-2 border-transparent hover:border-gray-200 mr-16 md:mr-5 ">
-            <input type="text" className="outline-none p-1" />
+          <span className="flex border-2 border-transparent hover:border-gray-200 mr-5 sm:mr-10 ">
+            <input type="text" className="w-[30vw] sm:w-[15vw] outline-none p-1" />
             <button className="flex items-center bg-gray-200 px-2 py-1">
               <CiSearch />
               Search

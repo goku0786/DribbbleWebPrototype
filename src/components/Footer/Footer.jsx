@@ -9,8 +9,8 @@ import { FaBasketballBall } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="bg-gray-200 pt-1">
-    <div className="mt-10  font-roboto flex justify-center gap-5">
+    <div className="bg-gray-200 pt-1 ">
+    <div className="mt-10  font-roboto flex justify-center px-5 gap-5">
       <div className="flex flex-col gap-5 w-1/4">
         <div className="text-sm w-full text-pink-500 tracking-[0.05em] font-pacifico   mt-5">
           dribbble
@@ -27,7 +27,7 @@ function Footer() {
           <FaPinterest className="cursor-pointer" />
         </div>
       </div>
-      <div className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-5">
+      <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-5">
         <ul className="flex flex-col gap-3">
           <h3 className="font-bold ">For Designers</h3>
           <li className=" cursor-pointer text-gray-500 ">

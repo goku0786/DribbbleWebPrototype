@@ -20,7 +20,7 @@ function CardSection() {
       <div className="text-sm text-pink-500 tracking-[0.05em] font-pacifico  ml-10 mt-10 ">
         dribbble
       </div>
-      <div className="flex flex-col justify-center font-roboto items-center mt-5 ">
+      <div className="flex flex-col justify-center font-roboto items-center mt-5 px-5 text-center ">
         <p className="text-3xl font-bold">What brings you to Dribbble?</p>
         <p className="text-gray-600 text-center">
           Select the option that best describe you. Don't worry, you can explore

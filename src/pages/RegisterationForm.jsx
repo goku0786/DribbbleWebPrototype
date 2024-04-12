@@ -1,7 +1,7 @@
 const SignupForm = () => {
   return (
     <>
-      <div className=" flex  font-roboto lg:px-20 mt-10 md:mt-20 border-2 border-black">
+      <div className=" flex justify-between  font-roboto lg:px-20 mt-10 md:mt-20 ">
         {/* Left container for signup image  */}
         <div className="hidden bg-yellow-300  md:block flex-col px-5 ml-5 ">
           <div className=" flex flex-col gap-2 px-5">
@@ -22,7 +22,7 @@ const SignupForm = () => {
         </div>
 
         {/* Right container for form data */}
-        <div className=" relative  flex  flex-col items-center sm:items-start w-full lg:px-16 px-10 ">
+        <div className=" relative  flex  flex-col items-center px-10 sm:items-start w-full  ">
           <span className="hidden lg:block absolute right-0">
             Already a member?
             <span className="text-purple-700 hover:underline cursor-pointer">
@@ -30,7 +30,7 @@ const SignupForm = () => {
             </span>
           </span>
           <h3 className="font-bold text-2xl py-8 ">Sign up to Dribbble</h3>
-          <div className="flex  gap-16">
+          <div className="flex  sm:gap-16 gap-5 ">
             <span className="flex flex-col">
               <label htmlFor="name" className="font-bold ">
                 Name
@@ -52,7 +52,7 @@ const SignupForm = () => {
               />
             </span>
           </div>
-          <span className="flex flex-col mt-5 w-[28rem] ">
+          <span className="flex flex-col mt-5 md:w-[28rem] w-full ">
             <label htmlFor="username" className="font-bold">
               Email
             </label>
@@ -62,7 +62,7 @@ const SignupForm = () => {
               className="outline-none border-none mt-1 p-1 text-black bg-gray-200 "
             />
           </span>
-          <span className="flex flex-col mt-5 w-[28rem]">
+          <span className="flex flex-col mt-5 md:w-[28rem] w-full">
             <label htmlFor="username" className="font-bold">
               Password
             </label>
@@ -72,8 +72,8 @@ const SignupForm = () => {
               className="outline-none border-none mt-1 p-1 bg-gray-200 text-black "
             />
           </span>
-          <span className="flex mt-5 lg:w-2/3">
-            <input type="checkbox" className="mb-5 mr-1" />
+          <span className="flex mt-5 w-full text-center sm:text-start ">
+            <input type="checkbox" className="sm:mb-5 mb-10 mr-1" />
             <span className="text-sm">
               Creating an account means you’re okay with our
               <span className="text-purple-700 hover:underline cursor-pointer ml-1 mr-1 ">
@@ -90,7 +90,7 @@ const SignupForm = () => {
             Create Account
           </button>
           <p className="lg:hidden mb-2">Already a member?<span className="hover:underline text-purple-600 cursor-pointer">Sign In</span></p>
-          <span className="text-xs">
+          <span className="text-xs w-full text-center sm:text-start">
             This site is protected by reCAPTCHA and the Google
             <span className="text-purple-700 hover:underline cursor-pointer mr-1 ml-1">
               Privacy Policy

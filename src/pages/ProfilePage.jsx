@@ -6,7 +6,7 @@ function ProfilePage() {
       <div className="text-sm text-pink-500 tracking-[0.05em] font-pacifico  ml-10 mt-10">
         dribbble
       </div>
-      <div className="flex flex-col justify-center items-center font-roboto mt-5">
+      <div className="flex flex-col justify-center items-center font-roboto mt-5 px-10">
         <div>
           <p className="text-3xl font-bold">
             Welcome! Let's create your profile
@@ -15,8 +15,8 @@ function ProfilePage() {
             Let other get to know you better! You can do these later
           </p>
           <p className="mt-8 mb-3 font-bold text-xl">Add an avatar</p>
-          <span className="flex gap-8">
-            <img src="profileImg.svg" alt="img" />
+          <span className="flex sm:flex-row flex-col sm:gap-8 w-full items-center">
+            <img src="profileImg.svg" alt="img" width="115px" />
             <span className="mt-5 flex flex-col gap-3">
               <input type="file" />
               <span className="flex gap-1">

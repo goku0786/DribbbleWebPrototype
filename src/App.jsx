@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="pl-5 sm:px-0">
+    <div >
       <Navbar />
       <Body />
       <EmailVerificationPage />

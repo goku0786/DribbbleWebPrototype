@@ -1,9 +1,9 @@
 const SignupForm = () => {
   return (
     <>
-      <div className=" flex  font-roboto lg:px-20 mt-10 md:mt-20">
+      <div className=" flex  font-roboto lg:px-20 mt-10 md:mt-20 border-2 border-black">
         {/* Left container for signup image  */}
-        <div className="hidden bg-yellow-300 w-2/5  lg:block flex-col px-5 ">
+        <div className="hidden bg-yellow-300  md:block flex-col px-5 ml-5 ">
           <div className=" flex flex-col gap-2 px-5">
             <span className="text-sm text-amber-700 pt-5  tracking-[0.05em] font-pacifico ">
               dribbble
